@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Leksjon11" Class="KundeDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=GRETHE-DELL\SQLEXPRESS;Initial Catalog=Leksjon11;Integrated Security=True;Pooling=False" SettingsObjectName="Leksjon11_kunde.Properties.Settings" SettingsPropertyName="Leksjon11ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.kunde" Member="kundes">
+    <Type Name="kunde">
+      <Column Name="kundenr" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="kundenavn" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="kundeadresse" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="epost" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
