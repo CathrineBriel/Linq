@@ -1,0 +1,53 @@
+﻿<Window x:Class="Leksjon11_kunde.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="IFUD 1002 C#.NET, Leksjon 11" Height="511" Width="689" Loaded="Window_Loaded" HorizontalAlignment="Center">
+    <Grid Background="White"  >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+
+        <DataGrid Name="gridView1" Grid.Row="0" Grid.ColumnSpan="1" />
+
+        <Grid Grid.Row="2" Grid.ColumnSpan="5"  >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="150" />
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="auto" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0">Kundenr:</Label>
+            <Label Grid.Row="1">Kundenavn:</Label>
+            <Label Grid.Row="2">Kundeadresse:</Label>
+            <Label Grid.Row="3">Epost:</Label>
+            <Label x:Name="lblError" Foreground="DarkRed"  Content="Error felt" Grid.Row="0" Grid.Column="3"/>
+
+            <TextBox  x:Name="txtKnr" Grid.Row="0" Grid.Column="1" />
+            <TextBox  x:Name="txtNavn" Grid.Row="1" Grid.Column="1"  />
+            <TextBox  x:Name="txtAdresse" Grid.Row="2" Grid.Column="1" />
+            <TextBox  x:Name="txtEpost" Grid.Row="3" Grid.Column="1" />
+
+            <Button x:Name="btnSok" Click="btnSok_Click" Grid.Row="0" Grid.Column="2">--></Button>
+        </Grid>
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal">
+            <Button  Name="btnAdd" Click="btnAdd_Click"  >Ny kunde</Button>
+            <Button Name="btnUpdate" Click="btnUpdate_Click" >Endre kunde</Button>
+            <Button  Name="btnDelete" Click="btnDelete_Click" >Slett kunde</Button>
+        </StackPanel>
+    </Grid>
+</Window>
+

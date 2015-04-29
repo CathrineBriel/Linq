@@ -1,0 +1,9 @@
+C:\Projects\Leksjon11_kunde\Leksjon11_kunde\bin\Debug\Leksjon11_kunde.exe.config
+C:\Projects\Leksjon11_kunde\Leksjon11_kunde\obj\Debug\Leksjon11_kunde.csprojResolveAssemblyReference.cache
+C:\Projects\Leksjon11_kunde\Leksjon11_kunde\obj\Debug\MainWindow.baml
+C:\Projects\Leksjon11_kunde\Leksjon11_kunde\obj\Debug\MainWindow.g.cs
+C:\Projects\Leksjon11_kunde\Leksjon11_kunde\obj\Debug\App.g.cs
+C:\Projects\Leksjon11_kunde\Leksjon11_kunde\obj\Debug\Leksjon11_kunde_MarkupCompile.cache
+C:\Projects\Leksjon11_kunde\Leksjon11_kunde\obj\Debug\Leksjon11_kunde.g.resources
+C:\Projects\Leksjon11_kunde\Leksjon11_kunde\obj\Debug\Leksjon11_kunde.Properties.Resources.resources
+C:\Projects\Leksjon11_kunde\Leksjon11_kunde\obj\Debug\Leksjon11_kunde.csproj.GenerateResource.Cache
