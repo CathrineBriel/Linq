@@ -10,9 +10,9 @@ using System.Windows;
 [assembly: AssemblyTitle("Leksjon11_kunde")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Storebrand")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Leksjon11_kunde")]
-[assembly: AssemblyCopyright("Copyright © Storebrand 2015")]
+[assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
